@@ -7,7 +7,7 @@ public class Main
      //two Sum
      static int[] TwoSum(int[] num,int  target){
          int l = num.length;
-         cl
+         
          //BRUTE FORCE APPROACH
          for(int i = 0; i< l ; i++){
              for(int j = i+1; j < l; j++){
@@ -35,7 +35,7 @@ public class Main
         }else{
           i++;
           nums[i] = nums[j];
-          j++;s
+          j++;
         }
 
 
